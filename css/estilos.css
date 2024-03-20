@@ -1,34 +1,43 @@
 *{
     padding: 10px;
     margin: 0px;
-    font-family: "Modimi One", sans-serif ;
+    font-family: "Dela Gothic One", sans-serif;
 }
 body{
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/946/356/desktop-wallpaper-dark-green-black-green.jpg);
-    
+    background-color: black;    
 }
 nav{
     width: 100%;
-    height: 20%;
+    height: 20dvw;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: url(https://e0.pxfuel.com/wallpapers/832/129/desktop-wallpaper-dark-blue-green-gradient-background-and-blue-green-and-black.jpg);
 }
 /* -----------------------------------------------CLASS-------------------------------------------------- */
 
 .contenedor-opciones{
     display: flex;
-    width: 20%;
+    width: 22%;
     list-style: none;
     flex-wrap: wrap;
 }
 .contenedor-opciones a{
-    color: antiquewhite;
+    color: rgb(12, 29, 180);
+    font-size: 18px;
+    
+}
+.titulo h1 a{
+    font-weight: 900;
+    color: rgba(0, 255, 85, 0.568);
+    text-shadow: 5px 5px blue ;
+    
 }
 .titulo{
     display: flex;
     font-size: 20px;
     width: 20%;
+    
 }
 .logo a img{
     width: 30px;
